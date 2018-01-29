@@ -1,5 +1,11 @@
 # Google_Agenda
-Les événements d'un agenda
+Récupérer les événements de votre agenda
+
+Dans un premier temps, vous devez :
+ créer une authentification Google
+ récupérer le client_secret.json
+ mettre le répertoire 'google-api-php-client-2.2.0' à la racine de serveur Web
+ vérifier que l'appel du google-api-php-client est bien : '../../../google-api-php-client-2.2.0/vendor/autoload.php';
 
 Ce petit projet permet
 + l'affichage du dashboard en utilisant la bibliothèque graphique JavaScript D3.js qui permet 
